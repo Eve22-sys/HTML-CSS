@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color: #caa2fd;
+    background-color: aqua;
+    width: 300px;
+}
+div:hover{
+    color: #caa2fd;
+}

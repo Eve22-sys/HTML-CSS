@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1
+    , initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <br>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em Negrito</b> usando a tag &lt;B&gt; (não semântica).</p>
+    <p>Nesta frase temos um <strong>termo em Destaque</strong> usando a tag &lt;Strong&gt; (semântica)</p>
+    <br>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> <!--Dica; termo em italico = ctrl+shift+p = --> usando a tag &lt;I&gt; (Não semântica).</p>
+    <p>Nesta frase, <em>temos um termo em enfâse</em> usando a tag &lt;EM&gt; (semântica)</p>
+    <br>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark >um texto marcado</mark> usando a tag &lt;MARK&gt;</p> <!--Para usar adicionar estilização adicionamos a tag style e começamos a usar o CSS-->
+    <p>Em um outro paragrafo, temos outro <mark>texto marcado</mark> no final</p>
+    <br>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste paragrafo</p>
+    <br>
+    <h2>Texto deletado</h2>
+    <p>Podemos <del>marca um texto</del> como excluído para indicar que ele deve ser lido, mas não indicado</p>
+    <br>
+    <h2>Texto inserido</h2>
+    <p>Podemos marca um <ins>texto inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe <u>também o sublinhado</u> com a tag &lt;U&gt; (não semântica)</p>
+    <br>
+    <h1>Texto sobrescrito</h1>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <br>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    <br>
+    <br>
+    <br>
+    <h1>Outras formatações</h1>
+    <br>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} é ÍMPAR')
+        print('fim do programa')
+        </code>
+    </pre>
+    <br>
+    <h2>Citações</h2>
+    <p>Como diria minha avó: <q>paciência é uma dádiva que eu não tenho</q></p><!--Q significa quote traduzindo do inglês citar-->
+    <br>
+    <h2>Citações completas</h2>
+    <p>Segundo Oliver Sykes em sua música Shadow moses</p>
+    <blockquote cite="https://www.letras.mus.br/oliver-sykes/shadow-moses/traducao.html">
+         Can you tell from the look in her eyes?
+        <br>
+        We're going no where
+        <br>
+        We live our lives like we're ready to die
+       <br>
+        We're going no where
+    </blockquote>
+    <br>
+    <h2>Abreviações</h2>
+    <p>Estou planejando meu futuro com <abbr title="HypeText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <br>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>

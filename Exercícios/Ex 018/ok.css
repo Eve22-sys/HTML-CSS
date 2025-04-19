@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'work sans', 'Franklin Gothic Medium';
+    font-size: 16px;
+    background-image:linear-gradient(to right,#f66500,#fe9e0f,#f99910 );
+}
+h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 3em;
+    color:white;
+}
+h2{
+    font-family:'work sans', 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: normal;
+    color: white;
+}
